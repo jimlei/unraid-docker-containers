@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>True</Beta>
+<Category>Webmail/Category>
+  <Name>Mailpile</Name>
+  <Overview>
+    Mailpile is software, an e-mail client. The goal of Mailpile is to allow people to send e-mail in a more secure and private manner than before.
+  </Overview>
+  <Description>
+    Mailpile is an effort to reclaim private communication on the Internet. A project to rescue our personal lives from the proprietary cloud and prevent our conversations from being strip-mined for corporate profit and government surveillance. Mailpile is taking e-mail back.
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/mazzolino/mailpile/</Registry>
+  <GitHub>https://github.com/djmaze/Mailpile</GitHub>
+  <Repository>jimlei/mailpile</Repository>
+  <Support>http://lime-technology.com/forum</Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>33411</HostPort>
+        <ContainerPort>33411</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <WebUI>http://[IP]:[PORT:33411]/</WebUI>
+  <Banner>http://i.imgur.com/owFlV1K.png</Banner>
+  <Icon>http://i.imgur.com/UGooaQt.png</Icon>
+</Container>
