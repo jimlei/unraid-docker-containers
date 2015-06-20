@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>True</Beta>
-<Category>Webmail/Category>
+<Category>Webmail</Category>
   <Name>Mailpile</Name>
   <Overview>
     Mailpile is software, an e-mail client. The goal of Mailpile is to allow people to send e-mail in a more secure and private manner than before.
