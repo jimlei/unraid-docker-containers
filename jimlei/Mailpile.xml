@@ -10,9 +10,9 @@
     Mailpile is an effort to reclaim private communication on the Internet. A project to rescue our personal lives from the proprietary cloud and prevent our conversations from being strip-mined for corporate profit and government surveillance. Mailpile is taking e-mail back.
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
   </Description>
-  <Registry>https://registry.hub.docker.com/u/cloudfleet/mailpile</Registry>
-  <GitHub>https://github.com/cloudfleet/Mailpile</GitHub>
-  <Repository>cloudfleet/mailpile</Repository>
+  <Registry>https://hub.docker.com/r/rroemhild/mailpile</Registry>
+  <GitHub>https://github.com/rroemhild/docker-mailpile</GitHub>
+  <Repository>rroemhild/docker-mailpile</Repository>
   <Support>http://lime-technology.com/forum</Support>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
