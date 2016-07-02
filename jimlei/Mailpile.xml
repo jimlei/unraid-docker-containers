@@ -12,7 +12,7 @@
   </Description>
   <Registry>https://hub.docker.com/r/mazzolino/mailpile/</Registry>
   <GitHub>https://github.com/djmaze/Mailpile</GitHub>
-  <Repository>djmaze/Mailpile</Repository>
+  <Repository>mazzolino/mailpile</Repository>
   <Support>http://lime-technology.com/forum</Support>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
